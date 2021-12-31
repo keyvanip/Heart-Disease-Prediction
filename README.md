@@ -1,6 +1,6 @@
 # Heart-Disease-Prediction
 ## I. Abstract
-Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 32% of all deaths worldwide [[1]](https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)). In the United States, about 1 in 4 deaths are caused by CVDs [[2]](https://www.cdc.gov/heartdisease/index.htm). Hence, it is important to detect cardiovascular diseases as early as possible and prevent further complications. In this project, I aim to build and analyze supervised Machine Learning and regression models that can accurately predict heart disease in a sample population. The collected [dataset](https://www.kaggle.com/fedesoriano/heart-failure-prediction) contains 12 features that is used for this classification problem. 
+Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 32% of all deaths worldwide [[1]](https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)). In the United States, about 1 in 4 deaths are caused by CVDs [[2]](https://www.cdc.gov/heartdisease/index.htm). Hence, it is important to detect cardiovascular diseases as early as possible and prevent further complications. In this project, I aim to build and analyze supervised Machine Learning and regression models that can accurately predict heart disease in a sample population. The collected [dataset](https://www.kaggle.com/fedesoriano/heart-failure-prediction) contains 12 features that are used for this classification problem. 
 
 ## II. Dataset Description
 1. Age: age of the patient [years]
@@ -18,7 +18,7 @@ Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
 12. HeartDisease: output class [1: heart disease, 0: Normal]
 
 ## III. Methods
-In the data exploratory stage, I found no missing values to be present in the dataset; however, I detected two variables that presented incorrect values and those values were adjusted accordingly. Next, I encoded all categorical variables to integer variables to fit and evaluate my Machine Learning models. I then used different visualization techniques to understand the relashionship behaviors between the variables and to determine if the variables exhibit Guassian distribution. Furthermore, I analysed the correlation and multicolinearity between variables, which yielded interesting and thought provoking results. In my final stage, I normalized the variables and trained and tested the selected classifiers using 80/20 train-test split and evaluated the accuracy of each model. The classifiers used in this project are listed below.
+In the data exploratory stage, I found no missing values to be present in the dataset; however, I detected two variables that presented incorrect values, and those values were adjusted accordingly. Next, I encoded all categorical variables to integer variables to fit and evaluate my Machine Learning models. I then used different visualization techniques to understand the relationship behaviors between the variables and to determine if the variables exhibit Gaussian distribution. Furthermore, I analyzed the correlation and multicollinearity between variables, which yielded interesting and thought-provoking results. In my final stage, I normalized the variables and trained and tested the selected classifiers using an 80/20 train-test split, and evaluated the accuracy of each model. The classifiers used in this project are listed below.
 1. *Logistic Regression*
 2. *Random Forest*
 3. *K-Nearest Neighbor*
@@ -28,9 +28,9 @@ In the data exploratory stage, I found no missing values to be present in the da
 
 ## IV. Results
 
-In three of the classifiers, we were able to achieve an accuracy of over 90% in a testing set predicting the likelyhood of individuals having a heart disease, while maintaining a low false negative rate.
+In three of the classifiers, we were able to achieve an accuracy of over 90% in a testing set predicting the likelihood of individuals having heart disease, while maintaining a low false-negative rate.
 
 ## V. References
 [1] “Cardiovascular Diseases (Cvds).” *World Health Organization, World Health Organization*, https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds). <br />
 [2] “Heart Disease.” *Centers for Disease Control and Prevention, Centers for Disease Control and Prevention*, 19 Jan. 2021, https://www.cdc.gov/heartdisease/index.htm. <br />
-[3] fedesoriano. (September 2021). *Heart Failure Prediction Dataset*. Retrieved [20 Dec. 2021] from https://www.kaggle.com/fedesoriano/heart-failure-prediction.<br />
+[3] Fedesoriano. (September 2021). *Heart Failure Prediction Dataset*. Retrieved [20 Dec. 2021] from https://www.kaggle.com/fedesoriano/heart-failure-prediction.<br />
