@@ -1,4 +1,5 @@
 # Heart-Disease-Prediction
+Link to my project notebook: https://nbviewer.org/github/keyvanip/Heart-Disease-Prediction/blob/cbdc522a2e1916d2273127937e36d2f43ba27848/Heart_Disease_Prediction.ipynb
 ## I. Abstract
 Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 32% of all deaths worldwide [[1]](https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)). In the United States, about 1 in 4 deaths are caused by CVDs [[2]](https://www.cdc.gov/heartdisease/index.htm). Hence, it is important to detect cardiovascular diseases as early as possible and prevent further complications. In this project, I aim to build and analyze supervised Machine Learning and regression models that can accurately predict heart disease in a sample population. The collected [dataset [3]](https://www.kaggle.com/fedesoriano/heart-failure-prediction) contains 12 features that are used for this classification problem. 
 
